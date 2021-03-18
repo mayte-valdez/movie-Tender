@@ -1,0 +1,212 @@
+
+.contentCards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header .allBtn, .filtreContent .allBtn {
+    box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.57);
+    border-radius: 18px;
+    width: 180px;
+    margin-left: 15px;
+    font-weight: bold;
+    height: 35px;
+    margin-top: 15px;  
+}
+
+.header  a, .filtreContent a {
+  text-decoration: none;  
+}
+
+.header .redBtn, .filtreContent .redBtn{
+    background-color: #EE0202;
+}
+
+.header .whiteBtn {
+    background-color: white;
+}
+div .greyBtn {
+    background-color: #504E50;
+    box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.57);
+    border-radius: 18px;
+    width: 200px;
+    height: 44px;
+    font-weight: bold;
+    color: white;
+}
+ div .greyBtn:hover {
+     color: #121212;
+ }
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+.header .slogan {
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 0.94em;
+}
+
+.titleSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    font-size: 0.8em;
+    padding: 8px 0 8px 0;
+    width: 80%;
+    letter-spacing: 0.3em;
+}
+
+/* Button Info */
+
+div .btnInfo {
+   
+    height: 44px;
+    color: white;
+    border: white solid 2px;
+    border-radius: 25px;
+    box-sizing: border-box!important;
+    padding: 0% !important;
+    min-width: 44px !important;
+}
+div .btnInfo span {
+    padding: 0;
+    text-transform: none;
+    font-size: 1.5em;
+}
+
+/* Button Choix Film */
+.choixFilm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    margin-top: -30px;
+}
+
+.choixFilm .btnChoisFilm {
+    box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.57);
+    border-radius: 20px;
+    min-width: 40px !important;
+    font-weight: bold;
+    height: 40px;
+    background-color: #F6F6F6;
+}
+.choixFilm .btnChoisFilm:hover, .choixFilm .btnChoisFilmFav:hover {
+    background-color: #504E50;
+}
+.choixFilm .btnChoisFilmFav {
+    box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.57);
+    border-radius: 28px;
+    min-width: 50px !important;
+    font-weight: bold;
+    height: 50px !important;
+    color: #EE0202;
+    background-color: #F6F6F6;
+}
+.choixFilm .btnChoisFilmFav .MuiSvgIcon-root{
+    font-size: 2em;
+    margin: 0;
+}
+.toutChanger {
+    margin-bottom: 30px !important;
+}
+
+/* Style Card Fav Film */
+.favCardFilm {
+    max-height: 228px !important;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.favCardFilm img {
+    border-radius: 8px !important;
+}
+
+.favCardFilm .btnFavInfo {
+    border: 1px solid #F6F6F6;
+    color: #F6F6F6;
+    border-radius: 25px;
+    box-sizing: border-box!important;
+    height: 25px;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.favCardFilm  .MuiButton-root {
+    font-size: 0.8em;
+    font-weight: 700;
+    padding-top: 4px;
+}
+
+.favCardFilm .btnSupFav {
+    color: #504E50;
+    text-decoration-line: underline;
+    margin-top: -3px;
+}
+
+/* Modal Style */
+.MuiPaper-root {
+    background-color: #272727 !important;
+    color: #F6F6F6 !important;   
+}
+.MuiPaper-root img{
+    max-height: 300px !important;
+}
+.contentModal {
+    padding: 5px 20px 10px 20px;
+    margin: 0;
+}
+.contentModal h3 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+} 
+.contentModal p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1em;
+} 
+.casting {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+.casting p {
+    font-size: 0.85em;
+}
+.casting div {
+    max-width: 100px;
+}
+.casting img {
+    width: 90px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0;
+}
+.contentModal .MuiButton-contained {
+    border-radius: 18px !important;
+    width: 180px;
+    margin-left: calc(50% - 90px);
+    font-weight: bold !important;
+    height: 35px;
+    margin-top: -30px;  
+    margin-bottom: 0;
+}
+.contentModal .MuiButton-contained:hover {
+    color:#F6F6F6;
+    background-color: #EE0202;  
+}

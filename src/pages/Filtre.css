@@ -1,0 +1,49 @@
+.chip {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3px;
+    border-radius: 25px;
+    border: none;
+    padding: 8px 12px 8px 12px;
+    cursor: pointer;
+    min-width: 70px;
+    background-color: gray;
+}
+
+.MuiChip-label {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.filtreSection{
+    max-width: 600px;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 0px; 
+}
+.buttonText .MuiButton-label{
+    color: #efefef;
+    font-size: small;
+}
+.filtreContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    width: 90%;
+    margin: auto;
+}
+.filtreContent .MuiInputBase-root {
+    background-color: gray;
+    color: white;
+    width: 300px;
+}
+.filtreContent .MuiFilledInput-underline:after {
+    border-bottom: 2px solid #EE0202;
+}
+.filtreContent .MuiFormLabel-root.Mui-focused {
+    color: white;
+}

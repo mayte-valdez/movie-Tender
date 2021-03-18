@@ -3,7 +3,7 @@
     display: flex;
     flex-wrap: wrap;
 }
-.header .allBtn, .filtreContent .allBtn {
+.header .allBtn {
     box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.57);
     border-radius: 18px;
     width: 180px;
@@ -132,6 +132,7 @@ div .btnInfo span {
 
 .favCardFilm img {
     border-radius: 8px !important;
+    height: auto !important;
 }
 
 .favCardFilm .btnFavInfo {

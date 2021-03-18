@@ -47,3 +47,15 @@
 .filtreContent .MuiFormLabel-root.Mui-focused {
     color: white;
 }
+ .filtreContent .allBtn {
+    box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.57);
+    border-radius: 18px;
+    min-width: 180px;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 15px;
+    font-weight: bold;
+    height: 35px;
+    margin-top: 15px;  
+}

@@ -1,5 +1,7 @@
 # ![movietender logo](https://raw.githubusercontent.com/mayte-valdez/movie-Tender/master/img_info/logo_v2.svg)
 
+Test the app --> [Mov(i)e Tender App](https://movinder.netlify.app/)
+
 This project was create by [Mayte Valdez](https://github.com/mayte-valdez), Tom and Isabelle as a part of Remote front-end developer training course.
 
 <img src="https://raw.githubusercontent.com/mayte-valdez/movie-Tender/master/img_info/movietenderHome.gif"> 

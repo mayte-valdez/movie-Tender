@@ -1,7 +1,5 @@
 # ![movietender logo](https://raw.githubusercontent.com/mayte-valdez/movie-Tender/master/img_info/logo_v2.svg)
 
-Test the app --> [Mov(i)e Tender App](https://movinder.netlify.app/)
-
 This project was create by [Mayte Valdez](https://github.com/mayte-valdez), Tom and Isabelle as a part of Remote front-end developer training course.
 
 <img src="https://raw.githubusercontent.com/mayte-valdez/movie-Tender/master/img_info/movietenderHome.gif"> 
@@ -38,3 +36,6 @@ Mov(i)e Tender is a platform in order to help you to find fast what to watch.
 | Top Random | Info film | Filtre | Favorites film | Total Random |
 | --- | --- | --- | --- | --- |
 | <img src="https://raw.githubusercontent.com/mayte-valdez/movie-Tender/master/img_info/movil.png"> |  <img src="https://raw.githubusercontent.com/mayte-valdez/movie-Tender/master/img_info/movil-modal.png"> |  <img src="https://raw.githubusercontent.com/mayte-valdez/movie-Tender/master/img_info/movil-filtre.png"> |  <img src="https://raw.githubusercontent.com/mayte-valdez/movie-Tender/master/img_info/movile-fav.png"> | <img src="https://raw.githubusercontent.com/mayte-valdez/movie-Tender/master/img_info/movile-toatalRandom.png"> | 
+
+
+Test the app --> [Mov(i)e Tender App](https://movinder.netlify.app/)
